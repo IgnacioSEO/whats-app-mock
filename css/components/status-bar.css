@@ -1,0 +1,31 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 17px 5px;
+}
+
+.status-bar__column:first-child {
+  width: 30%;
+  text-align: center;
+}
+
+.status-bar__column:nth-child(2) {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.notch {
+  background-color: black;
+  border-radius: 20px;
+  height: 20px;
+  width: 110px;
+}
