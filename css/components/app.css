@@ -1,0 +1,122 @@
+.app__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.app__calender {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.app__calender--name {
+  margin-top: 6px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.calender__day {
+  margin-top: 4px;
+  color: red;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.calender__date {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.app__weather {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  grid-area: a;
+  background: linear-gradient(rgb(1, 77, 135), rgb(136, 181, 218));
+}
+
+.app__weather--name {
+  margin-top: 6px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.weather__location {
+  font-size: 14px;
+}
+
+.weather__temperature {
+  margin-top: 4px;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.weather__description {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.weather__hl {
+  font-size: 12px;
+}
+
+.weather__dot {
+  align-self: center;
+  margin-top: -32px;
+  margin-left: -13px;
+}
+
+.weather__icon {
+  align-self: center;
+  margin-top: 24px;
+  margin-left: -70px;
+}
+
+.app__notes {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.notes__line {
+  border-bottom: solid 1px gray;
+  width: 100%;
+}
+
+.notes__line:first-child {
+  background-color: rgb(246, 246, 32);
+}
+
+.app__notes--name {
+  margin-top: 48px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.app__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
