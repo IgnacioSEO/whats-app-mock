@@ -5,34 +5,6 @@
   gap: 20px;
 }
 
-.app__calender {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  text-align: center;
-}
-
-.app__calender--name {
-  margin-top: 6px;
-  font-size: 10px;
-  color: white;
-  text-align: center;
-}
-
-.calender__day {
-  margin-top: 4px;
-  color: red;
-  font-size: 11px;
-  font-weight: 600;
-}
-
-.calender__date {
-  font-size: 30px;
-  font-weight: 300;
-}
 
 .app__weather {
   display: flex;
@@ -85,7 +57,7 @@
   margin-left: -70px;
 }
 
-.app__notes {
+.app__calender {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -95,28 +67,67 @@
   text-align: center;
 }
 
-.notes__line {
-  border-bottom: solid 1px gray;
-  width: 100%;
-}
-
-.notes__line:first-child {
-  background-color: rgb(246, 246, 32);
-}
-
-.app__notes--name {
-  margin-top: 48px;
+.app__calender--name {
+  margin-top: 6px;
   font-size: 10px;
   color: white;
   text-align: center;
 }
 
-.app__area {
+.calender__day {
+  margin-top: 4px;
+  color: red;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.calender__date {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.app__notes {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: yellow;
+  flex-direction: column;
+  border-radius: 10px;
   height: 50px;
   width: 50px;
-  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  object-fit: cover;
+ 
+}
+
+.notes__line:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(246, 246, 32);
+  height: 13px;
+  border-bottom: solid 1px gray;
+  width: 100%;
+}
+
+.notes__line:nth-child(2) {
+  height: 2px;
+  border-bottom: dotted 1px gray;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.notes__line:nth-child(3) {
+  height: 10px;
+  border-bottom: solid 1px gray;
+  width: 100%;
+}
+
+.notes__line:nth-child(4) {
+  height: 12px;
+  border-bottom: solid 1px gray;
+  width: 100%;
+}
+
+.app__notes--name {
+  font-size: 10px;
+  color: white;
+  text-align: center;
 }
