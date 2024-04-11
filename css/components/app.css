@@ -193,5 +193,18 @@
   font-size: 16px;
   height: 50px;
   width: 50px;
-  background-color: whitesmoke
+  background-color: whitesmoke;
+}
+
+.app__camera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(24, 23, 23);
+  border-radius: 10px;
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(208, 208, 208);
 }
