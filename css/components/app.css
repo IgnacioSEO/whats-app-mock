@@ -253,10 +253,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(132, 146, 156);
+  color: rgb(116, 162, 196);
   border-radius: 10px;
   font-size: 16px;
   height: 50px;
   width: 50px;
-  background: linear-gradient(to left, rgb(26, 144, 228), rgb(215, 212, 241));
+  background-color: whitesmoke;
+}
+
+.app__instagram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(to left, rgb(223, 28, 162), rgb(213, 225, 35));
 }
