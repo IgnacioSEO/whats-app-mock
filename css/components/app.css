@@ -273,3 +273,16 @@
   width: 50px;
   background: linear-gradient(to left, rgb(223, 28, 162), rgb(213, 225, 35));
 }
+
+.app__whatsapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(56, 221, 38);
+}
