@@ -286,3 +286,16 @@
   width: 50px;
   background-color: rgb(56, 221, 38);
 }
+
+.app__tips {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(59, 89, 240);
+}
